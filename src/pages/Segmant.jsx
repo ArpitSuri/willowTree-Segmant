@@ -90,7 +90,7 @@ const Segments = () => {
             <div className="relative z-10 pt-8 pb-12">
                 <button
                     onClick={() => navigate("/")}
-                    className="group flex items-center space-x-2 bg-black/40 backdrop-blur-xl border border-purple-500/20 px-6 py-3 rounded-xl text-purple-300 hover:text-white hover:border-purple-400/40 transition-all duration-300 hover:bg-purple-500/10"
+                    className="group flex items-center space-x-2 bg-black/40 backdrop-blur-xl border border-purple-500/20 px-6 py-3 rounded-xl text-purple-300 hover:text-white hover:border-purple-400/40 transition-all duration-300 hover:bg-purple-500/10 cursor-pointer"
                 >
                     <svg className="w-5 h-5 transform group-hover:-translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />

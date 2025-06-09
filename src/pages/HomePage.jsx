@@ -140,7 +140,7 @@ const Home = () => {
                     {/* Submit button with hover animations */}
                     <button
                         type="submit"
-                        className="group relative w-full bg-gradient-to-r from-purple-600 to-purple-700 text-white py-4 px-6 rounded-xl font-semibold text-lg transition-all duration-300 hover:from-purple-500 hover:to-purple-600 hover:shadow-lg hover:shadow-purple-500/25 active:scale-95 overflow-hidden"
+                        className="group relative w-full bg-gradient-to-r from-purple-600 to-purple-700 text-white py-4 px-6 rounded-xl font-semibold text-lg transition-all duration-300 hover:from-purple-500 hover:to-purple-600 cursor-pointer hover:shadow-lg hover:shadow-purple-500/25 active:scale-95 overflow-hidden"
                     >
                         {/* Button background animation */}
                         <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
