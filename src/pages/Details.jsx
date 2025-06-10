@@ -615,9 +615,9 @@ const Detail = () => {
                                                 </div>
 
                                                 <div className="pl-13">
-                                                    <p className="text-purple-100/80 text-sm leading-relaxed">
+                                                    {/* <p className="text-purple-100/80 text-sm leading-relaxed">
                                                         {company.reason}
-                                                    </p>
+                                                    </p> */}
                                                 </div>
                                             </div>
                                         ))}

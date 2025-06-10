@@ -9,7 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const App = () => (
   <Router>
-    <ToastContainer
+    {/* <ToastContainer
       position="top-center"
       autoClose={2000}
       hideProgressBar={false}
@@ -20,7 +20,7 @@ const App = () => (
       draggable
       pauseOnHover
       theme="dark"
-    />
+    /> */}
     <Routes>
 
       <Route path="/" element={<Home />} />
