@@ -453,7 +453,7 @@ const Detail = () => {
         setTimeout(() => {
             setLoading(false);
             setTimeout(() => setIsVisible(true), 100);
-        }, 1000);
+        }, 30000);
     }, []);
 
     const handleBack = () => {

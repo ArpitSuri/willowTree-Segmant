@@ -64,7 +64,7 @@ const Home = () => {
             // Simulate navigation - in real app, use navigate("/segments");
             navigate("/segments");
             toast.success("Scraping completed! Navigating to segments...");
-        }, 1500);
+        }, 30000);
     };
 
     // Loading component simulation
